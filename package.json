@@ -1,6 +1,6 @@
 {
   "name": "@curogram/nestjs-dataloader",
-  "version": "10.0.0",
+  "version": "10.0.1",
   "description": "A NestJS decorator for dataloader",
   "license": "MIT",
   "repository": "https://github.com/krislefeber/nestjs-dataloader",
@@ -22,7 +22,10 @@
   },
   "devDependencies": {
     "@jorgebodega/typeorm-factory": "^2.1.0",
+    "@nestjs/apollo": "^12.2.2",
     "@nestjs/cli": "^11.0.5",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/graphql": "^12.2.2",
     "@nestjs/platform-express": "^10.4.15",
     "@nestjs/testing": "^10.4.15",
     "@nestjs/typeorm": "^10.0.2",
@@ -32,6 +35,7 @@
     "apollo-server-express": "^3.13.0",
     "graphql": "^16.10.0",
     "jest": "^29.7.0",
+    "mongoose": "^7.8.6",
     "reflect-metadata": "^0.2.2",
     "sqlite3": "^5.1.7",
     "supertest": "^7.1.0",
@@ -54,9 +58,9 @@
     "dist"
   ],
   "peerDependencies": {
-    "@nestjs/apollo": "^12.2.2",
-    "@nestjs/core": ">= 10.4.15 < 11",
-    "@nestjs/graphql": "^12.2.2",
-    "rxjs": ">= 7.8.2 < 8"
+    "@nestjs/apollo": ">= 12.2.2",
+    "@nestjs/core": ">= 10.4.15",
+    "@nestjs/graphql": ">= 12.2.2",
+    "mongoose": ">= 7.8.6"
   }
 }
